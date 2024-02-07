@@ -1,4 +1,4 @@
-class person
+class movie
 {
   constructor(movieName,movieStudio,movieRating){
   this.movieName = movieName
@@ -11,6 +11,6 @@ class person
   }
 
 }
-var movie = new person("Casino Royale","Eon Productions","PG13");
-console.log(movie);
-console.log(movie.get_pg())
+var movie01 = new movie("Casino Royale","Eon Productions","PG13");
+console.log(movie01);
+console.log(movie01.get_pg())
